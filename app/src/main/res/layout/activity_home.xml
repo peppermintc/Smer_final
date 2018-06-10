@@ -96,7 +96,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="19dp"
-        android:text="Feeback"
+        android:text="Feedback"
         android:textColor="#2e5cf4"/>
 
 </RelativeLayout>
