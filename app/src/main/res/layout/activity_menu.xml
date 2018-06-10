@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <TabHost
+        android:id="@+id/tabHost"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:id="@+id/tab1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <ScrollView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TableLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:stretchColumns="3">
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:weightSum="3"
+                                    android:layout_weight="0.5">
+
+                                    <Button
+                                        android:id="@+id/kimchi_rice"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:text="김치볶음밥"
+                                        android:layout_weight="1"
+                                        android:textStyle="bold" />
+
+                                    <Button
+                                        android:id="@+id/noodle_mix"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:text="비빔국수"
+                                        android:layout_weight="1"
+                                        android:textStyle="bold" />
+
+                                    <Button
+                                        android:id="@+id/rice_mix"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:text="비빔밥"
+                                        android:layout_weight="1"
+                                        android:textStyle="bold" />
+                                </TableRow>
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:weightSum="3"
+                                    android:layout_weight="0.5">
+
+                                    <Button
+                                        android:id="@+id/kimchi_stew"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="김치찌개"
+                                        android:textStyle="bold" />
+
+                                    <Button
+                                        android:id="@+id/noodle"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="잔치국수"
+                                        android:textStyle="bold" />
+
+                                    <Button
+                                        android:id="@+id/greenonion_rice"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="대파볶음밥"
+                                        android:textStyle="bold" />
+
+
+                                </TableRow>
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:weightSum="3"
+                                    android:layout_weight="0.5">
+
+                                    <Button
+                                        android:id="@+id/bean_stew"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="된장찌개"
+                                        android:textStyle="bold" />
+
+                                    <Button
+                                        android:id="@+id/softtofu_stew"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="순두부찌개"
+                                        android:textStyle="bold" />
+
+                                    <Button
+                                        android:id="@+id/redpepper_stew"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="고추장찌개"
+                                        android:textStyle="bold" />
+
+
+                                </TableRow>
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:weightSum="3"
+                                    android:layout_weight="0.5">
+
+                                    <Button
+                                        android:id="@+id/fried_squid"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="오징어볶음"
+                                        android:textStyle="bold" />
+
+                                    <Button
+                                        android:id="@+id/bulgogi_hotpot"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="불고기전골"
+                                        android:textStyle="bold" />
+
+                                    <Button
+                                        android:id="@+id/tofu_kimchi"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="두부김치"
+                                        android:textStyle="bold" />
+                                </TableRow>
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:weightSum="3"
+                                    android:layout_weight="0.5">
+                                    <Button
+                                        android:id="@+id/spicy_rice_cake"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="떡볶이"
+                                        android:textStyle="bold" />
+                                    <Button
+                                        android:id="@+id/army_stew"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="부대찌개"
+                                        android:textStyle="bold" />
+                                    <Button
+                                        android:id="@+id/kimchi_pancake"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="김치전"
+                                        android:textStyle="bold" />
+                                </TableRow>
+
+                            </TableLayout>
+
+                            <FrameLayout
+                                android:id="@+id/container"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="bottom">
+
+                            </FrameLayout>
+                        </LinearLayout>
+                    </ScrollView>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <ScrollView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TableLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:stretchColumns="3">
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:weightSum="3"
+                                    android:layout_weight="0.5">
+
+                                    <Button
+                                        android:id="@+id/f1"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:text="오야꼬동"
+                                        android:layout_weight="1"
+                                        android:textStyle="bold" />
+
+                                    <Button
+                                        android:id="@+id/f2"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:text="깐풍새우"
+                                        android:layout_weight="1"
+                                        android:textStyle="bold" />
+
+                                    <Button
+                                        android:id="@+id/f3"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:text="타마고산도"
+                                        android:layout_weight="1"
+                                        android:textStyle="bold" />
+                                </TableRow>
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:weightSum="3"
+                                    android:layout_weight="0.5">
+
+                                    <Button
+                                        android:id="@+id/f4"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="새우하이라이스"
+                                        android:textStyle="bold" />
+
+                                    <Button
+                                        android:id="@+id/f5"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="카레크림우동"
+                                        android:textStyle="bold" />
+
+                                    <Button
+                                        android:id="@+id/f6"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="와사마요라면"
+                                        android:textStyle="bold" />
+
+
+                                </TableRow>
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:weightSum="3"
+                                    android:layout_weight="0.5">
+
+                                    <Button
+                                        android:id="@+id/f7"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="치즈이모모찌"
+                                        android:textStyle="bold" />
+
+                                    <Button
+                                        android:id="@+id/f8"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="토마토달걀덮밥"
+                                        android:textStyle="bold" />
+
+                                    <Button
+                                        android:id="@+id/f9"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="만두계란탕"
+                                        android:textStyle="bold" />
+
+
+                                </TableRow>
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:weightSum="3"
+                                    android:layout_weight="0.5">
+
+                                    <Button
+                                        android:id="@+id/f10"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="소고기크로켓"
+                                        android:textStyle="bold" />
+
+                                    <Button
+                                        android:id="@+id/f11"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="스테키동"
+                                        android:textStyle="bold" />
+
+                                    <Button
+                                        android:id="@+id/f12"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="바나나빠스"
+                                        android:textStyle="bold" />
+                                </TableRow>
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:weightSum="3"
+                                    android:layout_weight="0.5">
+                                    <Button
+                                        android:id="@+id/f13"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="치킨가라오게"
+                                        android:textStyle="bold" />
+                                    <Button
+                                        android:id="@+id/f14"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="닭가슴짜장볶음"
+                                        android:textStyle="bold" />
+                                    <Button
+                                        android:id="@+id/f15"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="마파두부"
+                                        android:textStyle="bold" />
+                                </TableRow>
+
+                            </TableLayout>
+                            <FrameLayout
+                                android:id="@+id/container1"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="bottom">
+
+                            </FrameLayout>
+
+                        </LinearLayout>
+                    </ScrollView>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <ScrollView
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                            <TableLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:stretchColumns="3">
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:weightSum="3"
+                                    android:layout_weight="0.5">
+
+                                    <Button
+                                        android:id="@+id/f16"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:text="계란피자"
+                                        android:layout_weight="1"
+                                        android:textStyle="bold" />
+
+                                    <Button
+                                        android:id="@+id/f17"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:text="식빵피자"
+                                        android:layout_weight="1"
+                                        android:textStyle="bold" />
+                                    <Button
+                                        android:id="@+id/f18"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:text="토마토파스타"
+                                        android:layout_weight="1"
+                                        android:textStyle="bold" />
+                                </TableRow>
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:weightSum="3"
+                                    android:layout_weight="0.5">
+
+                                    <Button
+                                        android:id="@+id/f19"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="크림파스타"
+                                        android:textStyle="bold" />
+
+                                    <Button
+                                        android:id="@+id/f20"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="프렌치토스트"
+                                        android:textStyle="bold" />
+
+                                    <Button
+                                        android:id="@+id/f21"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="투움바파스타"
+                                        android:textStyle="bold" />
+
+
+                                </TableRow>
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:weightSum="3"
+                                    android:layout_weight="0.5">
+
+                                    <Button
+                                        android:id="@+id/f22"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="두부까스"
+                                        android:textStyle="bold" />
+
+                                    <Button
+                                        android:id="@+id/f23"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="콘치즈"
+                                        android:textStyle="bold" />
+
+                                    <Button
+                                        android:id="@+id/f24"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="목살스테이크"
+                                        android:textStyle="bold" />
+
+
+                                </TableRow>
+
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:weightSum="3"
+                                    android:layout_weight="0.5">
+
+                                    <Button
+                                        android:id="@+id/f25"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="바나나토스트"
+                                        android:textStyle="bold" />
+
+                                    <Button
+                                        android:id="@+id/f26"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="두부딸기샐러드"
+                                        android:textStyle="bold" />
+
+                                    <Button
+                                        android:id="@+id/f27"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="식빵맛탕"
+                                        android:textStyle="bold" />
+                                </TableRow>
+                                <TableRow
+                                    android:layout_width="match_parent"
+                                    android:layout_height="0dp"
+                                    android:weightSum="3"
+                                    android:layout_weight="0.5">
+                                    <Button
+                                        android:id="@+id/f28"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="몬테크리스토"
+                                        android:textStyle="bold" />
+                                    <Button
+                                        android:id="@+id/f29"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="맥앤치즈"
+                                        android:textStyle="bold" />
+                                    <Button
+                                        android:id="@+id/f30"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_weight="1"
+                                        android:text="닭가슴살카레"
+                                        android:textStyle="bold" />
+                                </TableRow>
+
+                            </TableLayout>
+                            <FrameLayout
+                                android:id="@+id/container2"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="bottom">
+
+                            </FrameLayout>
+
+                        </LinearLayout>
+                    </ScrollView>
+
+
+                </LinearLayout>
+
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+</LinearLayout>

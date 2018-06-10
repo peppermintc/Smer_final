@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#3f3838">
+
+    <Button
+        android:id="@+id/btnPrice"
+        android:layout_width="164dp"
+        android:layout_height="102dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/btnMenu"
+        android:layout_marginEnd="25dp"
+        android:drawableLeft="@drawable/coin_luck"
+        android:fontFamily="@font/ya"
+        android:text="PRICE"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="25dp" />
+
+    <Button
+        android:id="@+id/btnMenu"
+        android:layout_width="157dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="132dp"
+        android:drawableLeft="@drawable/clipboard"
+        android:fontFamily="@font/ya"
+        android:padding="15dp"
+        android:text="MENU"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="27dp" />
+
+    <Button
+        android:id="@+id/btnIgredient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/btnMenu"
+        android:layout_marginBottom="165dp"
+        android:drawableLeft="@drawable/egg"
+        android:fontFamily="@font/ya"
+        android:text="INGREDIENT"
+        android:layout_alignLeft="@+id/btnMenu" />
+
+    <Button
+        android:id="@+id/btnFresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnPrice"
+        android:layout_alignTop="@+id/btnIgredient"
+        android:drawableLeft="@drawable/progress_bar"
+        android:fontFamily="@font/ya"
+        android:text="FRESHENESS"
+        android:layout_alignLeft="@+id/btnPrice" />
+
+    <Button
+        android:id="@+id/btnPush"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/btnMenu"
+        android:layout_marginBottom="49dp"
+        android:drawableLeft="@drawable/noodles"
+        android:fontFamily="@font/ya"
+        android:text="PUSH"
+        android:layout_alignLeft="@+id/btnMenu" />
+
+    <Button
+        android:id="@+id/btnRandom"
+        android:layout_width="166dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/btnPrice"
+        android:layout_alignTop="@+id/btnPush"
+        android:drawableLeft="@drawable/random"
+        android:fontFamily="@font/ya"
+        android:text="RANDOM"
+        android:layout_alignLeft="@+id/btnPrice" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="229dp"
+        android:layout_height="43dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="46dp"
+        app:srcCompat="@drawable/smer_font" />
+
+    <TextView
+        android:id="@+id/feedback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="19dp"
+        android:text="Feeback"
+        android:textColor="#2e5cf4"/>
+
+</RelativeLayout>

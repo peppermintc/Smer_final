@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#eadfb43e"
+   >
+
+    <Button
+        android:id="@+id/Rice"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="149dp"
+        android:drawableTop="@drawable/rice_btn"
+        android:fontFamily="@font/ya"
+        android:paddingTop="30dp"
+        android:text="Rice"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/rice_Back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="53dp"
+        android:text="back" />
+
+    <Button
+        android:id="@+id/not_Rice"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/Rice"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="11dp"
+        android:drawableTop="@drawable/noodle_btn"
+        android:fontFamily="@font/ya"
+        android:paddingTop="30dp"
+        android:text="noodle"
+        android:textSize="20dp"/>
+
+</RelativeLayout>

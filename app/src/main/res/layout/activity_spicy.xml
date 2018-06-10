@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#bce44b63"
+    >
+
+    <Button
+        android:id="@+id/Spicy"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="149dp"
+        android:drawableTop="@drawable/spicy_btn"
+        android:fontFamily="@font/ya"
+        android:paddingTop="30dp"
+        android:text="Spicy"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/not_Spicy"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/Spicy"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="11dp"
+        android:drawableTop="@drawable/not_spicy_btn"
+        android:fontFamily="@font/ya"
+        android:paddingTop="30dp"
+        android:text="Not  spicy"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/spicy_Back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="81dp"
+        android:text="back"
+        />
+</RelativeLayout>

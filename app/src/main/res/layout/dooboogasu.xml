@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/dooboogasu1" />
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="재료"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="50dp"
+                android:padding="10dp"
+                android:text="1인분"
+                android:textSize="20dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="50dp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="5dp"
+            android:background="#999">
+        </View>
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="두부"
+                    android:textSize="15dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="100dp"
+                    android:text="1 모"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+            </TableRow>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#4444">
+            </View>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="부침가루"
+                    android:textSize="15dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="100dp"
+                    android:text="3 스푼"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+            </TableRow>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#4444">
+            </View>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="빵가루"
+                    android:textSize="15dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="100dp"
+                    android:text="1.5 컵(종이컵)"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+            </TableRow>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#4444">
+            </View>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="계란"
+                    android:textSize="15dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="100dp"
+                    android:text="1 개"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+            </TableRow>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#4444">
+            </View>
+        </TableLayout>
+        <!--소스-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="양념 재료"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="5dp"
+            android:background="#999">
+        </View>
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="돈까스소스"
+                    android:textSize="15dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="100dp"
+                    android:text="4 스푼"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+            </TableRow>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#4444">
+            </View>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="올리고당"
+                    android:textSize="15dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="100dp"
+                    android:text="1 스푼"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+            </TableRow>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#4444">
+            </View>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="물"
+                    android:textSize="15dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="100dp"
+                    android:text="2 스푼"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+            </TableRow>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#4444">
+            </View>
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="양파"
+                    android:textSize="15dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="100dp"
+                    android:text="1/4개"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+            </TableRow>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#4444">
+            </View>
+        </TableLayout>
+
+
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/oya2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/dooboogasu1" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

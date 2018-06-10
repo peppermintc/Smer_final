@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/breadpizza1" />
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="재료"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="50dp"
+                android:padding="10dp"
+                android:text="1인분"
+                android:textSize="20dp"
+                android:layout_alignParentLeft="true"
+                android:layout_marginLeft="50dp" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="5dp"
+            android:background="#999">
+        </View>
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="식빵"
+                    android:textSize="15dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="100dp"
+                    android:text="2장"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+            </TableRow>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#4444">
+            </View>
+
+            <TableRow>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="옥수수"
+                    android:textSize="15dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="100dp"
+                    android:text="6큰술"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+            </TableRow>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#4444">
+            </View>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="베이컨"
+                    android:textSize="15dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="100dp"
+                    android:text="4장"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+            </TableRow>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#4444">
+            </View>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="양파"
+                    android:textSize="15dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="100dp"
+                    android:text="1/2개"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+            </TableRow>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#4444">
+            </View>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="파프리카"
+                    android:textSize="15dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="100dp"
+                    android:text="각 1/3개(빨강,노랑)"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+            </TableRow>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#4444">
+            </View>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="방울토마토"
+                    android:textSize="15dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="100dp"
+                    android:text="4개"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+            </TableRow>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#4444">
+            </View>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="모짜렐라 치즈"
+                    android:textSize="15dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="100dp"
+                    android:text="1/2컵(종이컵)"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+            </TableRow>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#4444">
+            </View>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="체다치즈"
+                    android:textSize="15dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="100dp"
+                    android:text="4장"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+            </TableRow>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#4444">
+            </View>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="토마토케찹"
+                    android:textSize="15dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="100dp"
+                    android:text="3큰술"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+            </TableRow>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#4444">
+            </View>
+            <TableRow>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="마요네즈"
+                    android:textSize="15dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="100dp"
+                    android:text="3큰술"
+                    android:textSize="15dp"
+                    android:textStyle="bold" />
+
+            </TableRow>
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="#4444">
+            </View>
+        </TableLayout>
+
+
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/oya2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/eggpizza1" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>
+

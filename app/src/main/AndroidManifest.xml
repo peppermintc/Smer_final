@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wjbshm.smer_final">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/smericon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Splash" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".PriceActivity"
+            android:label="@string/title_activity_price"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".PushIngredient" />
+        <activity android:name=".HomeActivity">
+
+        </activity>
+        <activity android:name=".MenuActivity"/>
+        <activity android:name=".TrashActivity" />
+        <activity android:name=".FridgeActivity" />
+        <activity android:name=".FragmentOne" />
+        <activity android:name=".FragmentTwo" />
+        <activity android:name=".FragmentThree" />
+        <activity android:name=".FragmentFour" />
+        <activity android:name=".FragmentFive" />
+        <activity android:name=".FragmentSix" />
+        <activity android:name=".FragmentSeven" />
+        <activity android:name=".FragmentEight" />
+        <activity android:name=".FragmentNine" />
+        <activity android:name=".FragmentTen" />
+        <activity android:name=".FragmentEleven" />
+        <activity android:name=".FragmentTwelve" />
+        <activity android:name=".FragmentThirteen" />
+        <activity android:name=".FragmentFourteen" />
+        <activity android:name=".FragmentFifteen" />
+        <activity android:name=".IngredientActivity" />
+        <activity android:name=".ListActivity" />
+        <activity android:name=".BananaToast" />
+        <activity android:name=".BreadMattang" />
+        <activity android:name=".BreadPizza" />
+        <activity android:name=".ChickenCurry" />
+        <activity android:name=".CornCheese" />
+        <activity android:name=".CreamPasta" />
+        <activity android:name=".DoobooGasu" />
+        <activity android:name=".EggPizza" />
+        <activity android:name=".FrenchToast" />
+        <activity android:name=".Montecristo" />
+        <activity android:name=".ShinPasta" />
+        <activity android:name=".Steak" />
+        <activity android:name=".TofuStrawberrySalad" />
+        <activity android:name=".TomatoPasta" />
+        <activity android:name=".MacandCheese" />
+        <activity android:name=".김치볶음밥" />
+        <activity android:name=".비빔국수" />
+        <activity android:name=".비빔밥" />
+        <activity android:name=".잔치국수" />
+        <activity android:name=".고추장찌개" />
+        <activity android:name=".김치순두부찌개" />
+        <activity android:name=".김치전" />
+        <activity android:name=".김치찌개" />
+        <activity android:name=".대파볶음밥" />
+        <activity android:name=".된장찌개" />
+        <activity android:name=".두부김치" />
+        <activity android:name=".떡볶이" />
+        <activity android:name=".오징어볶음" />
+        <activity android:name=".불고기전골" />
+        <activity android:name=".부대찌개" />
+        <activity android:name=".Rice" />
+        <activity android:name=".Meat" />
+        <activity android:name=".Spicy" />
+        <activity android:name=".food_List" />
+        <activity android:name=".Freshness"/>
+        <activity android:name=".Feedback"/>
+
+
+    </application>
+
+    <!--웹뷰를위해-->
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+</manifest>

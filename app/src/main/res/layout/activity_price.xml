@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_dark"
+    android:orientation="vertical">
+
+    <EditText
+        android:fontFamily="@font/ya"
+        android:id="@+id/priceEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="198dp"
+        android:hint="Please type your payment"
+        android:textColorHint="@android:color/white"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/showBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/priceEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Show Recommend List"/>
+
+</RelativeLayout>
